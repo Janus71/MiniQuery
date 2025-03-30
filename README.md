@@ -38,7 +38,7 @@ $('#form').on('submit', e => {
 
 ## 📘 Documentation
 
-Check the [examples and usage table](https://janus71.github.io/MiniQuery/table.html) for a full overview of methods, descriptions and code snippets.
+Check the [examples and usage table](https://janus71.github.io/MiniQuery/index.html) for a full overview of methods, descriptions and code snippets.
 
 ## 🧩 CDN (optional)
 
