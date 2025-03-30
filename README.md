@@ -33,6 +33,11 @@ $('#form').on('submit', e => {
   console.log(data);
 });
 ```
+## 🧩 CDN (optional)
+
+You can also serve it via CDN if you host it somewhere, or copy it to your public assets.
+
+https://cdn.jsdelivr.net/gh/Janus71/MiniQuery/miniquery-2.0.min.js
 
 ## 🌐 Keywords
 
