@@ -1,5 +1,58 @@
 # MiniQuery
-A jQuery-like, native JavaScript-based DOM library that is fast, extensible, and dependency-free.
+
+**MiniQuery** is a lightweight, extensible, jQuery-inspired DOM utility library built with pure JavaScript.  
+It provides a familiar syntax and powerful features without the overhead of larger libraries.
+
+## 🚀 Features
+
+- Easy DOM selection and manipulation
+- Class, attribute, and style management
+- Event handling (`on`, `off`, `trigger`)
+- Animation helpers (`fadeIn`, `fadeOut`, `slideToggle`, `scrollTo`, `animate`, `colorAnimate`)
+- Form utilities: `.serialize()`, `.serializeArray()`, `.serializeObject()`
+- AJAX shortcuts: `$.ajax()`, `$.get()`, `$.post()`
+- Utility functions: `wrap`, `unwrap`, `scrollTo`, `toggleAttr`, `cssVar`, etc.
+- Chainable API just like jQuery
+- No dependencies – works with vanilla JS
+
+## 📦 Getting Started
+
+Include it in your HTML:
+
+```html
+<script src="miniquery-2.0.min.js"></script>
+```
+
+Use it like jQuery:
+
+```javascript
+$('.box').addClass('highlight').fadeIn(400);
+$('#form').on('submit', e => {
+  e.preventDefault();
+  const data = $('#form').serializeObject();
+  console.log(data);
+});
+```
+
+## 📘 Documentation
+
+Check the [examples and usage table](docs/table.html) for a full overview of methods, descriptions and code snippets.
+
+## 🧩 CDN (optional)
+
+You can also serve it via CDN if you host it somewhere, or copy it to your public assets.
+
+## 🌐 Keywords
+
+`javascript` `dom` `jquery-alternative` `utility-library` `micro-library` `vanilla-js` `frontend`
+
+## 📄 License
+
+MIT License
+
+---
+
+Built by [@Janus71](https://github.com/Janus71) with ❤️ for developers who want a simpler, focused DOM utility library.
 
 <table>
 <thead>
