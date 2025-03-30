@@ -33,6 +33,11 @@ $('#form').on('submit', e => {
   console.log(data);
 });
 ```
+
+## 📘 Documentation
+
+Check the [examples and usage table](docs/table.html) for a full overview of methods, descriptions and code snippets.
+
 ## 🧩 CDN (optional)
 
 You can also serve it via CDN if you host it somewhere, or copy it to your public assets.
