@@ -93,9 +93,9 @@ A jQuery-like, native JavaScript-based DOM library that is fast, extensible, and
             </pre></td></tr>
 <tr><td><code>serializeArray()</code></td><td>Return form fields as array of JS objects.</td><td>
 <pre>
-                const dataok = $('form').serializeArray();
+                const data = $('form').serializeArray();
 
-                console.log(dataok);
+                console.log(data);
                 // [
                 //   { name: 'name', value: 'John' },
                 //   { name: 'email', value: 'joe@example.com' },
@@ -104,9 +104,9 @@ A jQuery-like, native JavaScript-based DOM library that is fast, extensible, and
             </pre></td></tr>
 <tr><td><code>serializeObject()</code></td><td>Return form fields as key-value object.</td><td>
 <pre>
-                const dataok = $('form').serializeObject();
+                const data = $('form').serializeObject();
 
-                console.log(dataok);
+                console.log(data);
                 // {
                 //   name: "John",
                 //   email: "joe@example.com",
@@ -172,3 +172,4 @@ $.ajax({
 <tr><td><code>redirect(url)</code></td><td>Redirect to new URL.</td><td><pre>$.redirect('/login');</pre></td></tr>
 </tbody>
 </table>
+
