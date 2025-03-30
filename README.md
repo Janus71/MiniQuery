@@ -37,7 +37,8 @@ $('#form').on('submit', e => {
 
 You can also serve it via CDN if you host it somewhere, or copy it to your public assets.
 
-https://cdn.jsdelivr.net/gh/Janus71/MiniQuery/miniquery-2.0.min.js
+<!-- Include MiniQuery via jsDelivr CDN -->
+<script src="https://cdn.jsdelivr.net/gh/Janus71/MiniQuery/miniquery-2.0.min.js"></script>
 
 ## 🌐 Keywords
 
