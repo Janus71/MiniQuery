@@ -66,12 +66,15 @@
 <tr><td><code>cssVar(value)</code></td><td>Get/set CSS variables.</td><td>
 <pre>
                 Querying a single variable:
+        
                 const color = $(':root').cssVar('--main-color');
         
                 Setting a single variable:
+        
                 $('body').cssVar('--main-color', '#00f');
         
                 To set multiple variables at once:
+        
                 $('body').cssVar({
                     '--main-color': '#0f0',
                     '--font-size': '18px'
@@ -93,6 +96,7 @@
                 const data = $('form').serializeArray();
 
                 console.log(data);
+        
                 // [
                 //   { name: 'name', value: 'John' },
                 //   { name: 'email', value: 'joe@example.com' },
@@ -104,6 +108,7 @@
                 const data = $('form').serializeObject();
 
                 console.log(data);
+        
                 // {
                 //   name: "John",
                 //   email: "joe@example.com",
@@ -143,6 +148,7 @@
                  $('#article').scrollTo(700);
         
                  They also work together:
+        
                  $('#article')
                     .toggleAttr('aria-expanded')
                     .scrollTo(500);
