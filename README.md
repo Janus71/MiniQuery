@@ -34,14 +34,6 @@ $('#form').on('submit', e => {
 });
 ```
 
-## 📘 Documentation
-
-Check the [examples and usage table](docs/table.html) for a full overview of methods, descriptions and code snippets.
-
-## 🧩 CDN (optional)
-
-You can also serve it via CDN if you host it somewhere, or copy it to your public assets.
-
 ## 🌐 Keywords
 
 `javascript` `dom` `jquery-alternative` `utility-library` `micro-library` `vanilla-js` `frontend`
