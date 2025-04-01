@@ -27,6 +27,7 @@ Use it like jQuery:
 
 ```javascript
 $('.box').addClass('highlight').fadeIn(400);
+
 $('#form').on('submit', e => {
   e.preventDefault();
   const data = $('#form').serializeObject();
